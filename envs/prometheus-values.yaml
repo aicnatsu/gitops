@@ -1,0 +1,5 @@
+kube-prometheus-stack:
+  grafana:
+    adminPassword: "Test123!"
+    service:
+      type: NodePort
