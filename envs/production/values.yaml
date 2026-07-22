@@ -2,7 +2,7 @@
 replicaCount: 2 # On veut de la haute disponibilité en prod
 
 image:
-  tag: "alpine" # On force la dernière version en prod
+  tag: "v-2ca01af"
 
 service:
   type: NodePort # On l'expose pour pouvoir y accéder depuis Minikube
